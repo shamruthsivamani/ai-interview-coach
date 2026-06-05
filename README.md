@@ -66,7 +66,7 @@ The frontend runs at `http://localhost:5173`.
    - Root Directory: `backend`
    - Build Command: `pip install -r requirements.txt`
    - Start Command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-4. Add this environment variable after the frontend is deployed:
+4. Optional: add this environment variable after the frontend is deployed:
    - `FRONTEND_URL=https://your-frontend-url.vercel.app`
 
 ### Frontend on Vercel
