@@ -7,7 +7,7 @@ from app.routes.interview import router as interview_router
 app = FastAPI(title="AI Interview Coach API")
 
 frontend_url = os.getenv("FRONTEND_URL", "").strip()
-allowed_origins = ["http://localhost:5173", "http://127.0.0.1:5173"]
+allowed_origins = ["ai-interview-coach-five-rouge.vercel.app"]
 if frontend_url:
     allowed_origins.append(frontend_url)
 
